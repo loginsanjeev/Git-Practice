@@ -1,0 +1,37 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "transreporting.cis2zfq0w5xx.us-east-1.redshift.amazonaws.com",
+            "port": 8192,
+            "driver": "AWS Redshift",
+            "name": "Transreporting",
+            "database": "transreporting",
+            "username": "amzl_vp_ro",
+            "password": "Amzl_VP_RO_0406!"
+        },
+        {
+            "previewLimit": 50,
+            "server": "amzl-bia-compute.cfc3pypfgclf.us-east-1.redshift.amazonaws.com",
+            "port": 8192,
+            "driver": "AWS Redshift",
+            "name": "AMZL BI Compute",
+            "database": "amzlbiacompute",
+            "username": "pudasasa",
+            "password": "ajbt4K61WA8E"
+        },
+        {
+            "pgOptions": {
+                "ssl": true
+            },
+            "previewLimit": 50,
+            "server": "gwfs-bpa-dev-rs.cjgwiemvkjnd.us-east-1.redshift.amazonaws.com",
+            "port": 8192,
+            "driver": "PostgreSQL",
+            "name": "WFI Business Planning",
+            "database": "gwfs-bpa-dev-rs",
+            "username": "pudasasa",
+            "password": "ajbt4K61WA8E"
+        }
+    ]
+}
